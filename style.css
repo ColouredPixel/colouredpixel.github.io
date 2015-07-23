@@ -1,0 +1,80 @@
+/*
+ * Author: Krista Lacida
+ */
+
+/* Import fonts */
+@import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url (http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic);
+@import url (http://fonts.googleapis.com/css?family=Lora:400,700);
+
+
+* { 
+	color: #444;
+	font-family: 'Lora', serif;
+	font-size: 120%;
+	margin: 0;
+	padding: 0px;
+} 
+
+body { 
+	background: #fff; 
+	margin: 0; 
+}
+
+a,
+a:hover,
+a:visited {
+	font-size: 100%;
+	color: #877CA1;
+}
+
+
+.container {
+	max-width: 600px;
+	padding: 6em auto;
+}
+
+#about {
+	border-top: 4px solid rgba(0,0,0,.06);
+	padding-top: 2em;
+}
+
+
+#intro {
+	display: block;
+	font-family: 'Playfair Display', 'Georgia', serif;
+	font-style: italic;
+	padding: 2em;
+}
+
+#projects ul{
+
+}
+
+#projects ul li{
+	border-bottom: 1px solid  rgba(0,0,0,.06);
+
+}
+
+#projects ul li a{
+	display: block;
+	padding: 20px 0;
+}
+
+.emphasis {
+	display: block;
+	font-family: 'Abril Fatface', 'Georgia', cursive;
+	font-size: 2em;
+	font-style: normal;
+}
+
+
+
+@media (max-width: 420px) {
+	.intro h1{
+	}
+
+	.emphasis {
+		font-size: 1.4em;
+	}
+}
